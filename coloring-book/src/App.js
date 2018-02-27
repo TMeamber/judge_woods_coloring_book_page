@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import Star from './Assets/star.png'
 class App extends Component {
   render() {
     return (
