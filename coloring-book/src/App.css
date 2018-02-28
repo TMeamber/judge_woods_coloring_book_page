@@ -2,10 +2,17 @@ body{
     height: 100%
 }
 
+.up {
+    display: flex;
+    flex-direction: column;
+}
+
 .Vote {
     text-transform: uppercase;
+    top: -150px;
+    position: relative;
     text-align: center;
-    font-size: 120px;
+    font-size: 220px;
     font-weight: 900;
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -14,10 +21,11 @@ body{
 }
 
 .Judge{
+    position: relative;
+    top: -150px;
     text-transform: uppercase;
-    margin-top: 60px;
     text-align: center;
-    font-size: 120px;
+    font-size: 220px;
     font-weight: 900;
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -26,11 +34,11 @@ body{
 }
 
 .Woods{
+    top: -150px;
     text-transform: uppercase;
     position: relative;
-    margin-top: 60px;
     text-align: center;
-    font-size: 120px;
+    font-size: 220px;
     font-weight: 900;
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -55,8 +63,6 @@ body{
     height: 200px;
     right: 0;
     bottom: 0;
-    padding-right: 27px;
-    padding-bottom: 21px;
     position: absolute;
 }
 
@@ -64,7 +70,5 @@ body{
     height: 200px;
     left: 0;
     bottom: 0;
-    padding-left: 27px;
-    padding-bottom: 21px;
     position: absolute;
 }

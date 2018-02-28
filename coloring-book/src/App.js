@@ -11,9 +11,11 @@ class App extends Component {
         <img className='Star' alt='' src={Star}/>
         <img className='Star2' alt='' src={Star}/>
         </div>
+        <div className='up'>
         <div className='Vote'>Vote</div>
         <div className='Judge'>Judge</div>
         <div className='Woods'>Woods</div>
+        </div>
       </div>
     );
   }
